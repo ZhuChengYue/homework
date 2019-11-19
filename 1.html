@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<title></title>
+		<style type="text/css">
+			*{
+				margin:0 ;
+				padding: 0;
+			}
+			p{
+				width:100px;
+				height:100px;
+				border: 2px solid #000000;
+				margin-left: 5px;
+
+			}
+			.box1 p{
+				width:100;
+				background: #FF0000;
+			}
+			.box2 p{
+				width:100;
+				background: #00FF00;
+			}
+			.fl{ 
+				float: left;
+			}
+			.fr{ 
+				float: right;
+			}
+			.wall{
+				clear: both;
+				height: 30px;
+			}
+		</style>
 	</head>
 	<body>
+		<div class="box1">
+			<p class="fl">AAA</p>
+			<p class="fl">AAA</p>
+			<p class="fr">AAA</p>
+			<p class="fr">AAA</p>
+		</div>
+		<div class="wall"></div>
+		<div class="box2">
+			<p class="fl">AAA</p>
+			<p class="fl">AAA</p>
+			<p class="fr">AAA</p>
+			<p class="fr">AAA</p>
+		</div>
+		
 	</body>
-</html>
+<ml>
